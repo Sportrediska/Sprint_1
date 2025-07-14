@@ -10,7 +10,7 @@ world_champions = {
 country = 'Италия'
 
 for key, value in world_champions.items():
-    print(key, value)
+    print(str(key) + ' - ' + value)
 
 
 isWin = False
